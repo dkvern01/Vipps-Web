@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Wikipedia Word Counter</title>
+    <link rel="stylesheet" href="/stylesheets/style.css"></link>
+  </head>
+  <body>
+    <h1>Wikipedia Word Counter</h1>
+    <form>
+      <label for="url">Enter a Topic:</label>
+      <div id="inputs">
+        <input type="text" id="topic" name="topic" /><br /><br />
+        <input id="button" type="submit" value="Submit" />
+      </div>
+    </form>
+    <div id="result"></div>
+
+    <div id="API_INFO">
+      <p>Go to: <b>localhost:3000/api/occurences?topic=[topic]</b></p>
+      <p>To use the API</p>
+    </div>
+    <script src="/javascripts/index.js"></script>
+  </body>
+</html>

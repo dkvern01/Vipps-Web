@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#inputs{
+  display: flex;
+}
+
+#API_INFO{
+  margin-top: 4rem;
+  background-color: lightgrey;
+  width: 22rem;
+  height: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+#topic{
+  background-color: lightgray;
+}
+
+#button{
+  background-color: black;
+  color: white;
+  padding: 15px;
+  border-radius: 0;
+  margin-left: 1rem;
+}
+
+label{
+  font-size: 1.2rem;
+}
+
+form{
+  margin-top: 2rem;
+}
+
+#result{
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+}
